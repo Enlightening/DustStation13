@@ -19,7 +19,7 @@ em						{font-style: normal;	font-weight: bold;}
 .looc					{color: #6699CC;}
 .adminobserverooc		{color: #0099cc;	font-weight: bold;}
 .adminooc				{color: #b82e00;	font-weight: bold;}
-.mentorhelp				{color: #0077bb;	font-weight: bold;}
+.advisorhelp				{color: #0077bb;	font-weight: bold;}
 .adminhelp				{color: #aa0000;	font-weight: bold;}
 
 .adminobserver			{color: #996600;	font-weight: bold;}

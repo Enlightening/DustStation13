@@ -118,7 +118,7 @@
 		//PMs sent from admins and mods display their rank
 		if(holder)
 			if(check_rights(R_MOD|R_MENTOR,0) && !check_rights(R_ADMIN,0))
-				recieve_span = "mentorhelp"
+				recieve_span = "advisorhelp"
 			else
 				recieve_span = "adminhelp"
 			send_pm_type = holder.rank + " "
@@ -170,9 +170,9 @@
 			continue
 		if(X.key != key && X.key != C.key)
 			switch(type)
-				if("Mentorhelp")
+				if("advisorhelp")
 					if(check_rights(R_ADMIN|R_MOD|R_MENTOR, 0, X.mob))
-						to_chat(X, "<span class='mentorhelp'>[type]: [key_name(src, X, 0, type)]-&gt;[key_name(C, X, 0, type)]: [msg]</span>")
+						to_chat(X, "<span class='advisorhelp'>[type]: [key_name(src, X, 0, type)]-&gt;[key_name(C, X, 0, type)]: [msg]</span>")
 				if("Adminhelp")
 					if(check_rights(R_ADMIN|R_MOD, 0, X.mob))
 						to_chat(X, "<span class='adminhelp'>[type]: [key_name(src, X, 0, type)]-&gt;[key_name(C, X, 0, type)]: [msg]</span>")

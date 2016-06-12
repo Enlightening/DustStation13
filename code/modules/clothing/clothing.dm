@@ -155,7 +155,7 @@
 	var/color_view = null//overrides client.color while worn
 	strip_delay = 20			//	   but seperated to allow items to protect but not impair vision, like space helmets
 	put_on_delay = 25
-	species_restricted = list("exclude","Kidan")
+	species_restricted = list("exclude")
 /*
 SEE_SELF  // can see self, no matter what
 SEE_MOBS  // can see all mobs, no matter what
